@@ -1,0 +1,161 @@
+/* @font-face {
+    font-family: "Avatar Airbender";
+    src: url("../fonts/Avatar\ Airbender.ttf");
+}
+@font-face {
+    font-family: "Anime Inept";
+    src: url("../fonts/Anime\ Inept.otf");
+}
+@font-face {
+    font-family: "Jujutsu Kaisen";
+    src: url("../fonts/Jujutsu\ Kaisen.ttf");
+} */
+
+
+body {
+    /* background-image: url(../imgs/background.jpg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px) brightness(50%);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden; */
+    background-color: #000;
+}
+.logo{
+    width: 150px;
+}
+/* .background{
+    background-image: url(./background.jpg);
+} */
+
+.text {
+    font-family: sans-serif !important;
+    color: white;
+    max-width: 75%;
+    margin: auto;
+    font-size: 250%;
+    text-align: center;
+    font-style: italic;
+}
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #8A2C35;
+    padding-top: 20px;
+    font-size: 390%;
+    text-transform: uppercase;
+}
+
+.card {
+    margin: auto;
+    max-width: 75%;
+    border-radius: 50px;
+    transition: 0.3s;
+    
+}
+
+.card:hover {
+    box-shadow: 10px 10px 30px 10px  #7E262E;
+}
+.card-body{
+    font-family: sans-serif;
+    text-align: center;
+    /* padding: 5%; */
+   
+}
+.enquiry-form iframe{
+    width: 75%;
+    height: 1100px;
+    margin: auto !important;
+    text-align: center !important;
+    padding-left: 25%;
+}
+
+.card-group {
+    max-width: 75%;
+   gap: 30px;
+    margin: auto !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top {
+    /* height: 200px;
+    width: 200px; */
+    margin: auto;
+    /* object-fit: cover; */
+    padding: 25px;
+}
+.partners{
+    margin: auto;
+    /* border: 0.5px solid white; */
+    max-width: 75%;
+    border-radius: 50px;
+}
+.img-thumbnail {
+    background: none;
+    border: none;
+    width: 300px;
+    object-fit: cover;
+}
+hr{
+    border: 0.5px solid white;
+    max-width: 75%;
+    margin: auto;
+}
+.enquiry-form{
+    text-align: left;
+    background: none;
+    color: white;
+    max-width: 75%;
+    margin: auto;
+   
+}
+.form-group{
+    margin-bottom: 5px; 
+}
+
+.enquiry-form .btn{
+    background-color:  #8A2C35 !important; 
+    border: none; 
+    width: 100% !important;
+    margin: auto !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px 10px 0!important;
+    padding: 1%;
+    /* border-radius: 50px !important; */
+}
+.enquiry-form .btn:hover{
+    background-color: #ee4e5e !important; 
+    border: none; 
+}
+
+footer{
+    background-color: #8A2C35 !important;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .text {
+        font-family: sans-serif !important;
+        color: white;
+        max-width: 75%;
+        margin: auto;
+        font-size: 250%;
+        text-align: center;
+        font-style: italic;
+    }
+    .heading{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        color:#902A32;
+        padding-top: 20px;
+        font-size: 280%;
+        font-weight:800;
+        text-transform: uppercase;
+    }
+
+}
