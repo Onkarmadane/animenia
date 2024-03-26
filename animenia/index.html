@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,14 +18,18 @@
 </head>
 
 <body>
-    <div class="background"></div>
-    <img data-aos="zoom-in" src="./assets/imgs/logo.png" alt="logo" class="rounded mx-auto d-block logo">
-    <div>
-        
+    <div class="logo-img">
+        <img data-aos="zoom-in" src="./assets/imgs/logo.png" alt="logo" class="rounded mx-auto d-block logo">
     </div>
-    <p data-aos="zoom-in-left" class="text">Welcome to Animenia by Trajanic Ventures <br> "Let Your Passion for Anime
-        Roar at Animenia!"</p>
-        <hr>
+
+
+    <div data-aos="zoom-in" class="text">
+        <p>Welcome to Animenia</p>
+        <p>by Trajanic Ventures</p>
+        <p>"Let Your Passion for Anime
+            Roar at Animenia!"</p>
+    </div>
+    <hr class="mt-3">
 
     <h1 class="heading">Event details</h1>
     <div data-aos="zoom-in" class="card-group mx-auto text-center pt-3">
@@ -53,56 +56,57 @@
         </div>
     </div>
     <hr class="mt-5">
+    <h1 class="heading">Our Partners</h1>
     <div class="partners text-center p-3 pb-3">
-        <h1 class="heading">Our Partners</h1>
         <img src="./assets/imgs/hackmaster.png" alt="" class="img-thumbnail" data-aos="fade-down-right">
-        <img src="./assets/imgs/skillectronics.png" data-aos="fade-down-left" alt="" class="img-thumbnail">
+        <img src="./assets/imgs/skillectronics.png"  alt="" class="img-thumbnail" data-aos="fade-down-left">
     </div>
-    <hr>
+    <hr class="mt-3">
     <h1 class="heading pb-3">Contact Form</h1>
-    <div class="enquiry-form pb-2">
+    <div class="enquiry-form pb-2" data-aos="fade-up">
         <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Name</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name Here">
+            <div class="form-group" >
+                <label for="exampleInputEmail1">Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter Your Name Here">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Here">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter Your Email Here">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Phone</label>
-              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Phone Number Here">
-            </div>  
-            <button type="submit" class="btn btn-primary "  >Submit</button>
-          </form>
+                <label for="exampleInputPassword1">Phone</label>
+                <input type="text" class="form-control" id="exampleInputPassword1"
+                    placeholder="Enter Your Phone Number Here">
             </div>
-            
+            <button type="submit" class="btn btn-primary ">Next</button>
+        </form>
+    </div>
+
     </div>
     <footer class="text-center py-3 ">
         <!-- Grid container -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/animenia.pune/"
-          role="button"><i class="fab fa-instagram"></i></a>
+            role="button"><i class="fab fa-instagram"></i></a>
         </section>
         <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
-    
+
         <!-- Copyright -->
         <div class="text-center p-3 text-white">
-          © 2023 Copyright:
-          <a class="text-white" href="https://www.linkedin.com/company/hackmaster-org/">Hackmaster org.</a>
+            © 2024 Copyright: <span>Trajanic Ventures</span>
         </div>
-        
-    
+
+
         <!-- Copyright -->
-    
-      </footer>
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./assets/js/app.js"></script>
     <script>
         AOS.init();
     </script>

@@ -1,37 +1,18 @@
-/* @font-face {
-    font-family: "Avatar Airbender";
-    src: url("../fonts/Avatar\ Airbender.ttf");
-}
-@font-face {
-    font-family: "Anime Inept";
-    src: url("../fonts/Anime\ Inept.otf");
-}
-@font-face {
-    font-family: "Jujutsu Kaisen";
-    src: url("../fonts/Jujutsu\ Kaisen.ttf");
-} */
 
-
-body {
-    /* background-image: url(../imgs/background.jpg);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px) brightness(50%);
-    background-blend-mode: darken;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden; */
+HTML, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
     background-color: #000;
 }
 .logo{
     width: 150px;
+    object-fit: cover;
 }
-/* .background{
-    background-image: url(./background.jpg);
-} */
-
-.text {
+.text p {
     font-family: sans-serif !important;
-    color: white;
+    color: white !important;
     max-width: 75%;
     margin: auto;
     font-size: 250%;
@@ -46,32 +27,21 @@ body {
     font-size: 390%;
     text-transform: uppercase;
 }
-
 .card {
-    margin: auto;
+    margin: auto !important;
     max-width: 75%;
     border-radius: 50px;
     transition: 0.3s;
-    
 }
-
 .card:hover {
     box-shadow: 10px 10px 30px 10px  #7E262E;
 }
 .card-body{
     font-family: sans-serif;
-    text-align: center;
-    /* padding: 5%; */
+    text-align: center !important;
+    margin: auto !important;
    
 }
-.enquiry-form iframe{
-    width: 75%;
-    height: 1100px;
-    margin: auto !important;
-    text-align: center !important;
-    padding-left: 25%;
-}
-
 .card-group {
     max-width: 75%;
    gap: 30px;
@@ -81,15 +51,12 @@ body {
 }
 
 .card-img-top {
-    /* height: 200px;
-    width: 200px; */
     margin: auto;
-    /* object-fit: cover; */
     padding: 25px;
+    object-fit: cover;
 }
 .partners{
     margin: auto;
-    /* border: 0.5px solid white; */
     max-width: 75%;
     border-radius: 50px;
 }
@@ -126,7 +93,6 @@ hr{
     text-align: center;
     margin: 10px 0px 10px 0!important;
     padding: 1%;
-    /* border-radius: 50px !important; */
 }
 .enquiry-form .btn:hover{
     background-color: #ee4e5e !important; 
@@ -144,7 +110,7 @@ footer{
         color: white;
         max-width: 75%;
         margin: auto;
-        font-size: 250%;
+        font-size: 50%;
         text-align: center;
         font-style: italic;
     }
@@ -153,9 +119,12 @@ footer{
         text-align: center;
         color:#902A32;
         padding-top: 20px;
-        font-size: 280%;
+        font-size: 220%;
         font-weight:800;
         text-transform: uppercase;
     }
+.card{
+    margin-top: 15px !important;
+}
 
 }
